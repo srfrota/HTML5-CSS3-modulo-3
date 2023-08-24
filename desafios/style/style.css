@@ -18,6 +18,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 /**Cabeçalho**/
@@ -38,7 +39,6 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
-    font-family: var(--fonte1);
 }
 
 header a, footer a{
@@ -56,11 +56,11 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
 }
 
 section.normal {
     background-color: white ;
-    font-family: var(--fonte3);
     font-size: 3.4vw;
     
 }
@@ -68,7 +68,6 @@ section.normal {
 p.fundo-paragrafo {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.477);
-    max-width: 400px;
     color: white;
     padding:5px;
 }
@@ -76,8 +75,6 @@ p.fundo-paragrafo {
 
 /**imagens **/
 section.imagem1 {
-    font-family: var(--fonte3);
-    font-size: 3.4vw;
     background-image: url(../images/background001.jpg);
     background-position: right center;
     background-attachment: fixed;
@@ -86,8 +83,6 @@ section.imagem1 {
 }
 
 section.imagem2{
-    font-family: var(--fonte3);
-    font-size: 3.4vw;
     background-image: url(../images/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
@@ -98,6 +93,5 @@ footer {
     background-color: black;
     text-align: center;
     color: white;
-    font-family: var(--fonte1);
     padding: 10px;
 }
