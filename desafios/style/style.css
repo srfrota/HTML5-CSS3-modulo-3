@@ -57,18 +57,22 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
+    font-size: 3.4vw;
 }
 
 section.normal {
     background-color: white ;
-    font-size: 3.4vw;
-    
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 p.fundo-paragrafo {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.477);
     color: white;
+    text-shadow: 1px 1px 0px black;
     padding:5px;
 }
 
@@ -79,7 +83,7 @@ section.imagem1 {
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
 }
 
 section.imagem2{
@@ -87,6 +91,7 @@ section.imagem2{
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
 }
 
 footer {
