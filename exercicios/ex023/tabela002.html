@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -46,12 +47,17 @@
             text-align: right;
         }
 
-
-
         thead, tfoot {
             background-color: gray;
             color: white;
         }
+        /* Os argumentos abaixo servem para deixar o cabeçalho da tabela fixo. OBS: Não esqueça de colocar "position: relative;" no argumento da tabela. */
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        
     </style>
 </head>
 <body>
